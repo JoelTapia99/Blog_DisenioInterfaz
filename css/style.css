@@ -1,0 +1,43 @@
+body{
+
+    background: gray;
+
+}
+
+.container{
+    display: flex;
+    margin: 25px;
+    border: 6px solid rgb(33, 83, 165);
+    background-color: rgb(84, 132, 209);
+    padding: 10px;
+    border-radius: 10px
+    
+}
+.porfolio {
+    display: flex;
+    border: 5px solid rgb(141, 127, 115);
+    margin: 3px;
+    padding: 5px;
+}
+.project p{
+    color: white;
+}
+.project strong {
+    color: rgb(56, 28, 32);
+}
+
+.formulario{
+    display: flex;
+    border: 5px solid rgb(141, 127, 115);
+    margin: 3px;
+    padding: 5px;
+}
+
+form label{
+    display: inline-block;    
+    text-align: left;
+}
+
+form input{
+    text-align: right;
+}
