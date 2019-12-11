@@ -1,9 +1,14 @@
 body{
     /*background: #aaabaf;*/
     margin: 0;
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    /* background: #7F7FD5; 
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); */
+
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #353e49, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38414b, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 h1{
@@ -25,9 +30,17 @@ h1{
     font-size: 17px;
     /* font-weight: inherit; */
     /* text-shadow: rgb(63, 62, 63) 2px 2px 2px */
+} 
+
+#segundoEstilo{
+    display: none;
 }
 
-.name-form{
+h3{
+    text-align: center;
+}
+
+.label-form{
     width: 20px;
     text-align: right;
     padding: 3px;
@@ -113,3 +126,4 @@ h1{
     background: linear-gradient(to bottom, #240b36, #c31432);
 
 } */
+
