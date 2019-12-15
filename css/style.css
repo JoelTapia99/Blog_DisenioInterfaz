@@ -36,6 +36,10 @@ h1{
     display: none;
 }
 
+#crearGrupos{
+    display: none;
+}
+
 h3{
     text-align: center;
 }
@@ -89,6 +93,47 @@ h3{
     right: 0;
   }
 
+  /* ahber que pasa  */
+
+  .header{
+    margin: auto;
+    width: 500px;
+    
+}
+
+.header ul, ol{
+    list-style: none;
+}
+.nav li a{
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav > li {
+    float: left;
+}
+.nav li a:hover{
+    background-color: skyblue;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0;
+}
 
 /* .porfolio {
     display: flex;

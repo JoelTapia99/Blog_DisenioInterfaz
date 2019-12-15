@@ -14,3 +14,15 @@ function segundoForm(){
   document.getElementById("segundoEstilo").style.display="block";
 
 }
+
+function redactarCorreos(){
+  document.getElementById("redactarCorreos").style.display="block";
+  document.getElementById("crearGrupos").style.display="none";
+
+}
+
+function crearGrupos(){
+  document.getElementById("redactarCorreos").style.display="none";
+  document.getElementById("crearGrupos").style.display="block";
+
+}
