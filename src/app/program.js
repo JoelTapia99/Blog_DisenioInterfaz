@@ -21,7 +21,7 @@ function nodo (){
                 ]}]};
     var llamada = imprimir(nodo);
     /* calcular(nodo); */
-    document.getElementById("container").innerHTML = llamada;
+    document.getElementById("dibujar-arbol").innerHTML = llamada;
 }
 
 /* function calcular (actual, nivel){
@@ -37,5 +37,4 @@ function nodo (){
     });
     return max +1;
 }
-
  */
